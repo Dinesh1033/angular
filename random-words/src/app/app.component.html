@@ -1,0 +1,8 @@
+<div class=" container mt-5 display-5">
+    <div class="w-5 text-center">
+        <button (click)="generate()" class="btn btn-primary">click</button>
+    </div>
+    <div *ngIf="Words" class="card card-body display-3">
+        {{Words}}
+    </div>
+</div>
